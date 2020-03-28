@@ -1,7 +1,8 @@
 {
-  "name": "osm-liberty",
+  "name": "openmapstyles",
   "version": "0.1.0",
-  "description": "A free Mapbox GL basemap style for everyone",
+  "license": "BSD-3-Clause",
+  "description": "A free set of Mapbox GL basemap styles for everyone",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "./node_modules/.bin/gl-style-validate style.json",
@@ -10,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maputnik/osm-liberty.git"
+    "url": "git+https://github.com/mon-petit-cloud/openmapstyles.git"
   },
   "keywords": [
     "maps",
@@ -20,12 +21,12 @@
   ],
   "author": "",
   "bugs": {
-    "url": "https://github.com/maputnik/osm-liberty/issues"
+    "url": "https://github.com/mon-petit-cloud/openmapstyles/issues"
   },
-  "homepage": "https://github.com/maputnik/osm-liberty#readme",
+  "homepage": "https://github.com/mon-petit-cloud/openmapstyles#readme",
   "devDependencies": {
-    "@mapbox/mapbox-gl-style-spec": "^13.10.2",
-    "husky": "^4.0.7",
+    "@mapbox/mapbox-gl-style-spec": "^13.13.0",
+    "husky": "^4.2.3",
     "sponge": "^0.1.0"
   },
   "husky": {
