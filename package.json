@@ -1,8 +1,8 @@
 {
-  "name": "openmapstyles",
+  "name": "openmapstyle",
   "version": "0.1.0",
   "license": "BSD-3-Clause",
-  "description": "A free set of Mapbox GL basemap styles for everyone",
+  "description": "A free Mapbox GL basemap style for everyone",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "./node_modules/.bin/gl-style-validate style.json",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mon-petit-cloud/openmapstyles.git"
+    "url": "git+https://github.com/mon-petit-cloud/openmapstyle.git"
   },
   "keywords": [
     "maps",
@@ -21,9 +21,9 @@
   ],
   "author": "",
   "bugs": {
-    "url": "https://github.com/mon-petit-cloud/openmapstyles/issues"
+    "url": "https://github.com/mon-petit-cloud/openmapstyle/issues"
   },
-  "homepage": "https://github.com/mon-petit-cloud/openmapstyles#readme",
+  "homepage": "https://github.com/mon-petit-cloud/openmapstyle#readme",
   "devDependencies": {
     "@mapbox/mapbox-gl-style-spec": "^13.13.0",
     "husky": "^4.2.3",

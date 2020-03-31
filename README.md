@@ -1,8 +1,8 @@
-# OpenMapStyles [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md) [![Build Status](https://travis-ci.org/maputnik/osm-liberty.svg?branch=gh-pages)](https://travis-ci.org/maputnik/osm-liberty)
+# OpenMapStyle [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/maputnik/osm-liberty/blob/gh-pages/LICENSE.md) [![Build Status](https://travis-ci.org/maputnik/osm-liberty.svg?branch=gh-pages)](https://travis-ci.org/maputnik/osm-liberty)
 
 <img align="right" alt="OSM Liberty" src="logo.png" />
 
-A free set of Mapbox GL basemap styles for everyone with complete liberty to use and self host. OpenMapStyles is a fork of OSM Liberty, which is itself a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
+A free Mapbox GL basemap style for everyone with complete liberty to use and self host. OpenMapStyle is a fork of OSM Liberty, which is itself a fork of OSM Bright based on free data sources with a mission for a clear good looking design for the everyday user. It is based on the vector tile schema of [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
 
 ## Usage
