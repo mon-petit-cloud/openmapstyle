@@ -31,7 +31,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run validate && npm run format && git add style.json"
+      "pre-commit": "if [[ $(git diff --staged style.json | wc -c) -ne 0 ]]; then npm run validate && npm run format;fi"
     }
   }
 }
