@@ -27,7 +27,8 @@
   "devDependencies": {
     "@mapbox/mapbox-gl-style-spec": "^13.13.0",
     "husky": "^4.2.3",
-    "sponge": "^0.1.0"
+    "sponge": "^0.1.0",
+    "@mapbox/spritezero": "^6.2.0"
   },
   "husky": {
     "hooks": {

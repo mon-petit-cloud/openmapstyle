@@ -106,9 +106,11 @@ Green        | `#76a723`
 3. Optional: Format the JSON with `cat iconset.json | jq -MS '.'` for better legibility.
 4. Add the SVG files from the folder [svgs_not_in_iconset](https://github.com/maputnik/osm-liberty/tree/gh-pages/svgs/svgs_not_in_iconset) to the folder `svgs` downloaded from the Maki Editor.
 These are the SVGs for road shields, the dot used for city and town layers and the road area pattern which could not be modified using the Maki Editor. To modify these you could use e.g. [Inkscape](https://inkscape.org).
-5. Install [spritezero-cli](https://github.com/mapbox/spritezero-cli): `npm install -g @mapbox/spritezero-cli`
-6. Generate the low resolution sprite: `spritezero osm-liberty ./svgs/`
-7. Generate the high resolution sprite: `spritezero --retina osm-liberty@2x ./svgs/`
+5. Generate the low and high resolution sprites: `./gen_sprites`. Sprites will be updated in the `sprites/` directory.
+
+## Fonts
+
+Fonts can be downloaded on [this page](https://github.com/openmaptiles/fonts/releases). 
 
 ## Have a look at ...
 
