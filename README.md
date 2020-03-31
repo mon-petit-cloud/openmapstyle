@@ -47,21 +47,17 @@ Another option is to create your own vector tiles with [OpenMapTiles](https://gi
 ## Data Sources
 
 - [OpenMapTiles](http://openmaptiles.org/) as vector data source
-- [Natural Earth Tiles](https://klokantech.github.io/naturalearthtiles/) for relief shading
 - [Maki](https://www.mapbox.com/maki-icons/) as icon set
 
 ## Map Design
 
 The map design originates from OSM Bright but strives to reach a unobtrusive and clean design for everyday use.
-Colored relief shading from Natural Earth make the low zoom levels look good.
 
-[![OSM Liberty Map demo](demo/zoom.gif)](https://maputnik.github.io/osm-liberty/)
+![OpenMapStyle demo](demo/zoom.gif)
 
 ## Edit the Style
 
-You can [edit the style directly online in Maputnik](https://maputnik.github.io/editor?style=https://maputnik.github.io/osm-liberty/style.json).
-
-This style actually triggered the need for the development of [Maputnik](https://github.com/maputnik/editor/).
+You can edit the style with [mapbox studio](https://studio.mapbox.com/) or with [fresco](https://github.com/go-spatial/fresco). 
 
 A pre-commit hook is included to validate and format the JSON styles using
 [`mapbox-gl-style-spec`](https://www.npmjs.com/package/@mapbox/mapbox-gl-style-spec).
