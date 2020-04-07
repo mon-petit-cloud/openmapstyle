@@ -3104,7 +3104,7 @@
           "to-string",
           ["coalesce", ["get", "name:fr"], ["get", "name"]]
         ],
-        "text-font": ["Roboto Condensed Italic"],
+        "text-font": ["Roboto Bold"],
         "text-max-width": 6.25,
         "text-size": ["interpolate", ["exponential", 1], ["zoom"], 2, 11, 5, 17]
       },
@@ -3142,7 +3142,7 @@
         ],
         "text-font": ["Roboto Bold"],
         "text-max-width": 6.25,
-        "text-size": ["interpolate", ["exponential", 1], ["zoom"], 1, 11, 4, 24]
+        "text-size": ["interpolate", ["exponential", 1], ["zoom"], 1, 11, 4, 17, 10, 24]
       },
       "paint": {
         "text-color": "#334",
