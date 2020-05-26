@@ -153,11 +153,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "waterway",
-      "filter": [
-        "all",
-        ["==", "class", "river"],
-        ["!=", "brunnel", "tunnel"]
-      ],
+      "filter": ["all", ["==", "class", "river"], ["!=", "brunnel", "tunnel"]],
       "layout": {"line-cap": "round"},
       "paint": {
         "line-color": "#80caf5",
@@ -177,11 +173,7 @@
       "type": "line",
       "source": "openmaptiles",
       "source-layer": "waterway",
-      "filter": [
-        "all",
-        ["!=", "class", "river"],
-        ["!=", "brunnel", "tunnel"]
-      ],
+      "filter": ["all", ["!=", "class", "river"], ["!=", "brunnel", "tunnel"]],
       "layout": {"line-cap": "round"},
       "paint": {
         "line-color": "hsl(210, 73%, 78%)",
@@ -3107,7 +3099,17 @@
         ],
         "text-font": ["Roboto Bold"],
         "text-max-width": 6.25,
-        "text-size": ["interpolate", ["exponential", 1], ["zoom"], 1, 11, 4, 17, 10, 24]
+        "text-size": [
+          "interpolate",
+          ["exponential", 1],
+          ["zoom"],
+          1,
+          11,
+          4,
+          17,
+          10,
+          24
+        ]
       },
       "paint": {
         "text-color": "#334",
