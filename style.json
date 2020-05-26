@@ -2873,7 +2873,7 @@
       "layout": {
         "text-field": ["to-string", ["get", "name"]],
         "text-font": ["Roboto Light"],
-        "text-size": ["interpolate", ["linear"], ["zoom"], 6.5, 9, 8, 10]
+        "text-size": ["interpolate", ["linear"], ["zoom"], 10, 12, 18, 18]
       },
       "paint": {
         "text-color": "hsl(117, 27%, 16%)",
