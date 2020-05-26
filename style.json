@@ -156,8 +156,7 @@
       "filter": [
         "all",
         ["==", "class", "river"],
-        ["!=", "brunnel", "tunnel"],
-        ["==", "geometry-type", "LineString"]
+        ["!=", "brunnel", "tunnel"]
       ],
       "layout": {"line-cap": "round"},
       "paint": {
@@ -181,8 +180,7 @@
       "filter": [
         "all",
         ["!=", "class", "river"],
-        ["!=", "brunnel", "tunnel"],
-        ["==", "geometry-type", "LineString"]
+        ["!=", "brunnel", "tunnel"]
       ],
       "layout": {"line-cap": "round"},
       "paint": {
