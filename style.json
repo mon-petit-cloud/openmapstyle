@@ -2864,47 +2864,14 @@
       }
     },
     {
-      "id": "park label minor",
-      "type": "symbol",
-      "source": "openmaptiles",
-      "source-layer": "park",
-      "minzoom": 10,
-      "filter": [
-        "all",
-        ["==", ["geometry-type"], "Point"],
-        ["!=", ["get", "protect_class"], 5]
-      ],
-      "layout": {
-        "text-field": [
-          "to-string",
-          ["coalesce", ["get", "name:fr"], ["get", "name"]]
-        ],
-        "text-font": ["Roboto Light"],
-        "text-size": 11
-      },
-      "paint": {
-        "text-color": "hsl(117, 40%, 24%)",
-        "text-halo-color": "hsl(0, 0%, 100%)",
-        "text-halo-blur": 3,
-        "text-halo-width": 2
-      }
-    },
-    {
       "id": "park label",
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "park",
-      "minzoom": 8,
-      "filter": [
-        "all",
-        ["==", ["geometry-type"], "Point"],
-        ["==", ["get", "protect_class"], 5]
-      ],
+      "minzoom": 10,
+      "filter": ["all", ["==", ["geometry-type"], "Point"]],
       "layout": {
-        "text-field": [
-          "to-string",
-          ["coalesce", ["get", "name:fr"], ["get", "name"]]
-        ],
+        "text-field": ["to-string", ["get", "name"]],
         "text-font": ["Roboto Light"],
         "text-size": ["interpolate", ["linear"], ["zoom"], 6.5, 9, 8, 10]
       },
