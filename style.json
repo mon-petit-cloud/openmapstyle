@@ -305,7 +305,7 @@
         "all",
         ["==", ["get", "brunnel"], "tunnel"],
         ["==", ["geometry-type"], "LineString"],
-        ["==", ["get", "ramp"], 0],
+        ["!=", ["get", "ramp"], 1],
         ["match", ["get", "class"], ["motorway", "trunk"], true, false]
       ],
       "layout": {"line-join": "round"},
@@ -750,7 +750,7 @@
         "all",
         ["match", ["geometry-type"], ["LineString"], true, false],
         ["match", ["get", "class"], ["trunk", "motorway"], true, false],
-        ["==", ["get", "ramp"], 0],
+        ["!=", ["get", "ramp"], 1],
         ["match", ["get", "brunnel"], ["tunnel"], true, false]
       ],
       "layout": {"line-join": "round"},
@@ -1292,7 +1292,7 @@
         "all",
         ["match", ["geometry-type"], ["LineString"], true, false],
         ["match", ["get", "class"], ["trunk", "motorway"], true, false],
-        ["==", ["get", "ramp"], 0],
+        ["!=", ["get", "ramp"], 1],
         ["match", ["get", "brunnel"], ["bridge", "tunnel"], false, true]
       ],
       "layout": {"line-join": "round"},
@@ -1949,7 +1949,7 @@
         "all",
         ["match", ["geometry-type"], ["LineString"], true, false],
         ["match", ["get", "class"], ["trunk", "motorway"], true, false],
-        ["==", ["get", "ramp"], 0],
+        ["!=", ["get", "ramp"], 1],
         ["match", ["get", "brunnel"], ["bridge"], true, false]
       ],
       "layout": {"line-cap": "square", "line-join": "round"},
@@ -2173,7 +2173,7 @@
         "all",
         ["match", ["geometry-type"], ["LineString"], true, false],
         ["match", ["get", "class"], ["trunk", "motorway"], true, false],
-        ["==", ["get", "ramp"], 0],
+        ["!=", ["get", "ramp"], 1],
         ["match", ["get", "brunnel"], ["bridge"], true, false]
       ],
       "layout": {"line-join": "round", "line-cap": "round"},
