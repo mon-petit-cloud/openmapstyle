@@ -2629,8 +2629,9 @@
       "minzoom": 14,
       "filter": [
         "all",
-        ["match", ["geometry-type"], ["Point"], true, false],
-        ["all", ["<", ["get", "rank"], 7], [">=", ["get", "rank"], 1]]
+        ["<", ["get", "rank"], 7],
+        [">=", ["get", "rank"], 1],
+        ["match", ["get", "class"], ["bus", "railway"], false, true]
       ],
       "layout": {
         "icon-image": ["concat", ["get", "class"], "_11"],
@@ -2654,17 +2655,8 @@
       "metadata": {"mapbox:group": "4a4ab89021cdd5e64175ed673cf43630"},
       "source": "openmaptiles",
       "source-layer": "poi",
-      "filter": [
-        "all",
-        [
-          "match",
-          ["geometry-type"],
-          ["LineString", "Point", "Polygon"],
-          true,
-          false
-        ],
-        ["match", ["get", "class"], ["airport", "bus", "rail"], true, false]
-      ],
+      "minzoom": 16,
+      "filter": ["match", ["get", "class"], ["airport", "bus", "rail", "railway"], true, false],
       "layout": {
         "text-size": 12,
         "icon-image": ["concat", ["get", "class"], "_11"],
