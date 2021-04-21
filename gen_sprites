@@ -15,8 +15,8 @@ var path = require('path');
         });
 
     if (pxRatio > 1) {
-        var pngPath = path.resolve(path.join(__dirname, 'sprites/openmapstyle@' + pxRatio + '.png'));
-        var jsonPath = path.resolve(path.join(__dirname, 'sprites/openmapstyle@' + pxRatio + '.json'));
+        var pngPath = path.resolve(path.join(__dirname, 'sprites/openmapstyle@' + pxRatio + 'x.png'));
+        var jsonPath = path.resolve(path.join(__dirname, 'sprites/openmapstyle@' + pxRatio + 'x.json'));
     }
     else {
         var pngPath = path.resolve(path.join(__dirname, 'sprites/openmapstyle.png'));
